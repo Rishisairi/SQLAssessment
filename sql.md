@@ -122,3 +122,12 @@ INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
 ```
 
 ![alt text](image-1.png)
+
+3. Write an SQL query to insert a new customer record into the "Customers" table. Include customer information such as name, email, and address.
+
+```sql
+INSERT INTO Customers ( CustomerID,FirstName, LastName, Email, Phone, Address)
+VALUES (3,'Nithya', 'sairi', 'nithya.sairi@gmail.com', '555-123-4567', '789 Oak St');
+```
+
+![alt text](image-2.png)
