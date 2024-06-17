@@ -156,3 +156,15 @@ WHERE OrderID = 1;
 ```
 
 ![alt text](image-4.png)
+
+6. Write an SQL query to insert a new order into the "Orders" table. Include the customer ID, order date, and any other necessary information.
+
+```sql
+
+INSERT INTO Ordersss (OrderID,CustomerID, OrderDate, TotalAmount)
+VALUES
+  (5,12345, '2024-06-17', 150.00);
+
+```
+
+![alt text](image-5.png)
