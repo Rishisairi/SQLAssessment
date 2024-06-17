@@ -131,3 +131,13 @@ VALUES (3,'Nithya', 'sairi', 'nithya.sairi@gmail.com', '555-123-4567', '789 Oak 
 ```
 
 ![alt text](image-2.png)
+
+4. Write an SQL query to update the prices of all electronic gadgets in the "Products" table by increasing them by 10%.
+
+```sql
+update products
+set Price = Price \* 1.1
+where ProductName IN ('Laptop', 'Smartphone');
+```
+
+![alt text](image-3.png)
