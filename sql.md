@@ -141,3 +141,18 @@ where ProductName IN ('Laptop', 'Smartphone');
 ```
 
 ![alt text](image-3.png)
+
+5. Write an SQL query to delete a specific order and its associated order details from the "Orders" and "OrderDetails" tables. Allow users to input the order ID as a parameter.
+
+```sql
+DECLARE @del int
+set @del = 1
+
+DELETE FROM OrderDetails
+WHERE OrderID = @del;
+DELETE FROM Orders
+WHERE OrderID = 1;
+
+```
+
+![alt text](image-4.png)
