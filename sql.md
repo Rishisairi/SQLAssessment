@@ -112,3 +112,13 @@ select FirstName,LastName,Email from Customers;
 ```
 
 ![alt text](image.png)
+
+2. Write an SQL query to list all orders with their order dates and corresponding customer names.
+
+```sql
+SELECT Orders.OrderID, Orders.OrderDate, CONCAT(Customers.FirstName, ' ', Customers.LastName) AS CustomerName
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
+```
+
+![alt text](image-1.png)
