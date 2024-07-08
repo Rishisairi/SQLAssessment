@@ -81,9 +81,9 @@ vercel
   amazon ebs is costly but faster
   ![alt text](<Screenshot 2024-06-27 123419.png>)
 
-# amazon s3 cheaper but slower, store bulk data
+# amazon s3 cheaper but slower, store bulk data ---> photos and videos in s3
 
-# ec2 ---> os,soure code
+# ebs ---> os,soure code,environment for source code
 
 # databse stores the collection of data logins and all data
 
@@ -95,9 +95,11 @@ When a user uploads a photo or video on Instagram, the application (running on E
 - For example, databases (like MySQL, PostgreSQL, or NoSQL databases) that store user data, preferences, and other structured information might use EBS volumes for their storage needs.
 - EBS volumes are also used for storing application logs, configurations, and other operational data that needs to persist beyond the lifespan of an EC2 instance.
 
-- c and d drives example
-- os is stored in ebs
-- enviromental details + codes in ec2
+# c and d drives example
+
+# os is stored in ebs
+
+# enviromental details + codes in ec2
 
 #
 
@@ -195,3 +197,73 @@ what you can do after assuming a role
 4.  IAM POLICES
     way to enforce this action
     2 users dev grp acces for ec2 instance
+
+# 2 july -
+
+-app runs in ec2
+
+- who can save where should we go is route 53
+- map domain name and ip of ec2
+- ec2 has static and dynamic ip ( we only should decide what to use)
+- buy the domain from ----> godaddy,namecheap,google
+- dynamic ----> name in ec2
+- static ---> stored in amazon route 53
+
+# Amazon S3
+
+## amazon s3 cheaper but slower, store bulk data ---> photos and videos in s3
+
+- what app need it stores them like google drive
+- we can have a website in online
+
+# What is an Amazon S3 bucket?
+
+- Amazon S3 bucket is a fundamental Storage Container feature in AWS S3 Service.
+- It provides a secure and scalable repository for storing of Objects such as Text data, Images, Audio and Video files over AWS Cloud.
+- Each S3 bucket name should be named globally unique and should be configured with ACL (Access Control List).
+
+# practical s3 working
+
+![alt text](<Screenshot 2024-07-02 104510.png>)
+
+# retreval of data
+
+![alt text](<Screenshot 2024-07-02 104905.png>)
+
+# app server
+
+- inside app server we run node
+- backend runs on node js called app server
+- if node crashes ----> connections cutoff , user can't see any app
+  then we have to restart node app
+- use case of app server can make automatic restart
+- app server - tomcat
+
+# web server
+
+- static files needs web server
+- we can't start server when we start server
+- they need not to be running all the time
+- server should be on all the time
+
+# web hosting
+
+files in s3 --> gives who ask for
+node app in ec2 ---> deploy
+keeping html files in s3 ---> hosting
+
+# route53
+
+- resolving the dns
+
+  ![alt text](<Screenshot 2024-07-02 124930.png>)
+
+- ip address and domai name and s3 bucket url
+  to update in dns
+- why name in s3 bucket
+
+# how to start cold start
+
+#
+
+# 3 july
