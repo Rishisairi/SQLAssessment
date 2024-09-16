@@ -158,3 +158,26 @@ const max = sum.reduce((acc, curr) => Math.max(acc, curr));
 const sum1 = [1, 7, 3, 10, 5];
 let highest = sum.reduce((acc, curr) => acc + curr);
 const avg = highest / sum.length;
+
+// Ex 4
+const library = [
+  {
+    title: "The Great Gatsby",
+    authors: ["F. Scott Fitzgerald"],
+    borrowed: true,
+  },
+  { title: "To Kill a Mockingbird", authors: ["Harper Lee"], borrowed: true },
+  { title: "1984", authors: ["George Orwell"], borrowed: true },
+  { title: "The Hobbit", authors: ["J.R.R. Tolkien"], borrowed: true },
+  { title: "Brave New World", authors: ["Aldous Huxley"], borrowed: true },
+];
+
+// Task 4.1: Determine if all books in the library have been borrowed.
+
+Output;
+("Yes, all books are borrowed");
+
+// Task 4.2: Determine if there are books in the library written by multiple authors
+
+Output;
+("No, there are no multiple authors");

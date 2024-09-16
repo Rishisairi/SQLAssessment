@@ -129,6 +129,25 @@ and publishing it into a shared and centralized repository.
 - improved collaboration
 - security
 
+# culture of devops
+
+- Create a highly collaborative environment
+- automate when possible
+  focus on customer needs
+- develop small and release often
+- include security at every phase
+- continuously experiment and learn
+- continuously improve
+
+# devops practices
+
+- communication and collaboration
+- monitoring and observability
+- continuopus integration
+- continuous delivery /deployment cd
+- microservices architecture
+- infrastructure as code
+
 # CI
 
 - The key goals of continuous integration are to
@@ -157,6 +176,15 @@ and publishing it into a shared and centralized repository.
 - DevOps teams iteratively remove process overlaps, human errors, and bottlenecks through automation.
 
 # devops cycle
+
+7 Cs of DevOps
+Continuous Development
+Continuous Integration
+Continuous Testing
+Continuous Deployment/Continuous Delivery
+Continuous Monitoring
+Continuous Feedback
+Continuous Operations
 
 ## code
 
@@ -224,3 +252,22 @@ Orchestration: Amazon Elastic Container Service (Amazon ECS), Kubernetes, Amazon
 # monitoring and observability
 
 Examples: AWS X-Ray, Amazon CloudWatch, AWS Config, AWS CloudTrail
+
+# The DevOps transformation did not just happen overnight but rather through small increments over a long period of time. It had company-wide impact. It changed how individuals think about their work. Value is placed on innovation, improvement, and business results supported by metrics.
+
+![alt text](image-22.png)
+
+# jenkins
+
+# shellscript
+
+cloud agnostic
+teraform , git commands
+how do people monitor
+gowtham
+sqs
+typescript
+unit testing
+jest
+nosql
+microservices

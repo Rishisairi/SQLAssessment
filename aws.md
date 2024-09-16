@@ -79,6 +79,7 @@ vercel
   more rigid
   and this ec2 is used to increase the ram and storage
   amazon ebs is costly but faster
+
   ![alt text](<Screenshot 2024-06-27 123419.png>)
 
 # amazon s3 cheaper but slower, store bulk data ---> photos and videos in s3
@@ -125,6 +126,8 @@ security groups --->
 
 NAS - hardwaree components
 ![alt text](<Screenshot 2024-06-27 152949.png>)
+
+# AMI ---> os
 
 ![alt text](<Screenshot 2024-06-27 153508.png>)
 
